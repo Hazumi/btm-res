@@ -1,0 +1,8 @@
+#ctl00_ContentPlaceHolder1_pnlMain .CodeMirror-scroll {
+  height: 800px !important;
+  max-height: 800px !important;
+}
+
+.CodeMirror-scroll {
+  font-size: 17px !important;
+}
