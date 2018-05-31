@@ -1,7 +1,7 @@
-let html = document.querySelectorAll('div.BTMPnl > h1')[0];
-let scripts = document.querySelectorAll('div.BTMPnl > h1')[1];
-let htmlPos = html.offsetTop;
-let scriptsPos = scripts.offsetTop - 20;
+const html = document.querySelectorAll('div.BTMPnl > h1')[0];
+const scripts = document.querySelectorAll('div.BTMPnl > h1')[1];
+const htmlPos = html.offsetTop;
+const scriptsPos = scripts.offsetTop - 20;
 
 document.onkeydown = function (event) {
     event = (event || window.event);
